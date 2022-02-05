@@ -1,0 +1,18 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.header__nav-list, .header__user-action{
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    margin: 0;
+}
+
+.header__nav-list a:first-child img{
+    height: 60px;
+    margin-top: 7px;
+}

@@ -1,0 +1,21 @@
+.wrap{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.imgContainer{
+    border-radius: 50%;
+    background-color: dimgray;
+    padding: 10px;
+}
+
+.imgContainer i{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.userInfo{
+    font-size: 16px;
+}
