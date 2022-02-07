@@ -7,7 +7,7 @@
 .imgContainer{
     border-radius: 50%;
     background-color: dimgray;
-    padding: 10px;
+    padding: 10px 12px;
 }
 
 .imgContainer i{

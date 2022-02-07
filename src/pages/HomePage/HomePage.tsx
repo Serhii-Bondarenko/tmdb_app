@@ -1,9 +1,12 @@
 import React from 'react';
 
+import './home.css';
+import {MoviesList} from "../../components";
+
 const HomePage = () => {
     return (
-        <div>
-            HOME
+        <div className='home container'>
+            <MoviesList/>
         </div>
     );
 };

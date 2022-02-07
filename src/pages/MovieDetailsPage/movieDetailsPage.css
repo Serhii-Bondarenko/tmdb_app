@@ -1,0 +1,34 @@
+.movie__content{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.movie__content div:first-child{
+    flex: 1 1 60%;
+}
+
+.movie{
+    color: dimgray;
+}
+
+.movie span{
+    font-weight: bold;
+}
+
+.movie img{
+    border-radius: 10px;
+}
+
+.movie div:last-child p:first-child{
+    margin-top: 0;
+}
+
+.movie__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.movie__info p{
+    text-align: justify;
+}

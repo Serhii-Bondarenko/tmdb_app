@@ -15,7 +15,7 @@ const Header = () => {
                             <img src='https://canshop.com.ua/wp-content/uploads/fake-logo-2.png' alt='Home'/>
                         </li>
                     </NavLink>
-                    <NavLink to={'Movies'}>
+                    <NavLink to={'genres'}>
                         <li>Films</li>
                     </NavLink>
                 </ul>
